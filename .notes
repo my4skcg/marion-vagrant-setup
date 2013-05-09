@@ -5,3 +5,45 @@ To create a new VM for another project:
 		==> change synced_folder
 	edit default.pp and change vhost
 	sudo vi /etc/hosts ==> add the servername and the url from Vagrantfile
+
+====================================================
+GIT
+
+	1)
+	create new repository on github
+
+	2)
+	git init
+	--------
+		initialize an existing directory with git making it a git repository
+
+	OR git clone https://github.com/...
+	   ---------------------------------
+		 checkout the latest version of the project into a directory in your current working directory,  dir name defaults to repo
+
+	3)
+	create or copy .gitignore file
+
+	4)
+	git remote add origin https://github.com/...
+	----------------------------------------------
+		"origin" is the expected default for all git commands that interact with remote repositories
+
+	5)
+	git checkout master
+	-------------------
+		check out your local master branch and make that your current branch.
+
+	6)
+	git pull --rebase
+	-----------------
+		fetch all remote changes and pull them into your local master branch; uses the default origin remote as the repository to pull changes from
+
+	7)
+	git add .
+	---------
+		tell git about the changes you want to track; "." == all changes
+
+	8)
+	git commit -m "commit message"
+	------------------------------
