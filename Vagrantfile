@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
         v.customize ["modifyvm", :id, "--memory", 768]
     end
 
-    config.vm.synced_folder "/Users/Marion/WebDev/marion", "/var/www", id: "vagrant-root", :nfs => true
+    config.vm.synced_folder "/Users/Marion/WebDev/marion-vagrant-setup", "/var/www", id: "vagrant-root", :nfs => true
 
     config.vm.provision :puppet do |puppet|
         puppet.manifests_path = "puppet/manifests"

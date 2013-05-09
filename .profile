@@ -1,4 +1,4 @@
- alias vup="cd $MVAGSETUPPATH; vagrant up"
- alias vhalt="cd $MVAGSETUPPATH; vagrant halt"
- alias vsus="cd $MVAGSETUPPATH; vagrant suspend"
- alias vssh="cd $MVAGSETUPPATH; vagrant ssh"
+ alias vup="cd $MARVAGPATH; vagrant up"
+ alias vhalt="cd $MARVAGPATH; vagrant halt"
+ alias vsus="cd $MARVAGPATH; vagrant suspend"
+ alias vssh="cd $MARVAGPATH; vagrant ssh"
