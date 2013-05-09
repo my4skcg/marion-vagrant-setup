@@ -1,3 +1,6 @@
+Starting a new project:
+
+VM
 To create a new VM for another project:
 	copy the Vagrantfile and Puppet directory to top level of project
 	edit Vagrantfile 
