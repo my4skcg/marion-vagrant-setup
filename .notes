@@ -1,0 +1,7 @@
+To create a new VM for another project:
+	copy the Vagrantfile and Puppet directory to top level of project
+	edit Vagrantfile 
+		==> change hostname and ip addr
+		==> change synced_folder
+	edit default.pp and change vhost
+	sudo vi /etc/hosts ==> add the servername and the url from Vagrantfile
